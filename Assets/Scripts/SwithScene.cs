@@ -6,11 +6,11 @@ using UnityEngine.SceneManagement;
 public class SwithScene : MonoBehaviour
 {
     public Scene scene;
-    public Object sceneToLoad;
+    [SerializeField] private Object _sceneToLoad;
 
-    void OnTriggerEnter()
+    private void OnTriggerEnter()
     {
         // SceneManager.LoadScene(scene.buildIndex);
-        SceneManager.LoadScene(sceneToLoad.name);
+        SceneManager.LoadScene(_sceneToLoad.name);
     }
 }
