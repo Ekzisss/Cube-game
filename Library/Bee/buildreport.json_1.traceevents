@@ -1,0 +1,461 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675120866436127, "dur": 203566, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675120866436289, "dur": 16130, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675120866452421, "dur": 177064, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675120866629487, "dur": 10206, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675120866639863, "dur": 6, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675120866473942, "dur":534, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866474483, "dur":94, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675120866474605, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675120866474621, "dur":370, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675120866475009, "dur":288, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866475297, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621141, "dur":166, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621307, "dur":44, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621351, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621355, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621367, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621369, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621383, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621385, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621390, "dur":56, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621446, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621450, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621452, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621457, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621458, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621461, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621462, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621464, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621465, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621468, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621468, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621471, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621472, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621474, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621475, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621478, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621478, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621481, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621482, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621484, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621485, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621488, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621489, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621491, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621498, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866621515, "dur":740, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675120866475071, "dur":230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866475302, "dur":1802, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477110, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477112, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477134, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477135, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477141, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477168, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477177, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477195, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477201, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477223, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477229, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477247, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477253, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477276, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477283, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477312, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477318, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477330, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477337, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477344, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477350, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477358, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477364, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477371, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866477377, "dur":52135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675120866529512, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866529526, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1675120866529537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866529539, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1675120866529741, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675120866529807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675120866529810, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1675120866530396, "dur":90725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866475071, "dur":234, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866475305, "dur":2003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477309, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477338, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477350, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477363, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477373, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477393, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477402, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477414, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477424, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477435, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477443, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477454, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477464, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477475, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477485, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477496, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477507, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477518, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477527, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477537, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866477592, "dur":73702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675120866551294, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675120866551316, "dur":69810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866475097, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866475316, "dur":1989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477305, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477339, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477359, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477373, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477383, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477396, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477407, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477417, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477426, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477440, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477450, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477461, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477471, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477482, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477491, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477501, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477511, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477522, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477531, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477582, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866477594, "dur":61112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675120866538707, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675120866538753, "dur":82389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675120866475122, "dur":198, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675120866475321, "dur":1922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675120866477243, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1675120866477284, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675120866477296, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675120866477644, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675120866477654, "dur":28879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675120866506534, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675120866506558, "dur":25418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675120866531977, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675120866532005, "dur":89127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866475144, "dur":181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866475325, "dur":1865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477191, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477247, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477261, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477300, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477502, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477513, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477520, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477527, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477532, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477583, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477592, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477600, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866477606, "dur":1108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866478714, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866478727, "dur":25356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866504084, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866504110, "dur":116965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675120866621076, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675120866621100, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1675120866621101, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866475169, "dur":159, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866475328, "dur":2108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477437, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477450, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477456, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477464, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477470, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477478, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477488, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477737, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866477744, "dur":25583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675120866503328, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866503346, "dur":31108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675120866534455, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675120866534486, "dur":86637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866475188, "dur":145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866475333, "dur":1830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866477164, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1675120866477654, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866477666, "dur":1143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675120866478810, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866478826, "dur":39447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675120866518273, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866518289, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1675120866518330, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866518338, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1675120866518353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866518480, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1675120866519853, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866519865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866519869, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520167, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520177, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520309, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520316, "dur":117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520436, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866520445, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675120866521654, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866521661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866521664, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866523304, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675120866523324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866523328, "dur":754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675120866524088, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866524097, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866524100, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866526675, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675120866526684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866526688, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675120866527901, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866527909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866527913, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1675120866528395, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1675120866528404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866528408, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1675120866528575, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1675120866528581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866528583, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1675120866529850, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1675120866529906, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675120866529915, "dur":91226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675120866475218, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675120866475337, "dur":1774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675120866477112, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675120866477191, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675120866477214, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675120866477714, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675120866477727, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675120866478573, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675120866478592, "dur":51587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675120866530179, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675120866530200, "dur":90935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675120866475255, "dur":85, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675120866475341, "dur":1769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675120866477110, "dur":395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1675120866477505, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675120866477512, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675120866477523, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675120866477529, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675120866477535, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675120866477584, "dur":70399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675120866547984, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675120866548014, "dur":73122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675120866475283, "dur":61, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675120866475344, "dur":1765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675120866477111, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675120866477191, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675120866477207, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1675120866477251, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675120866477269, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1675120866477583, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675120866477595, "dur":124780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675120866602376, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675120866602391, "dur":18748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866475309, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866475309, "dur":1998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477308, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477336, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477347, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477364, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477377, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477389, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477400, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477414, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477423, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477434, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477443, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477455, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477467, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477477, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477489, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477500, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477509, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477525, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866477535, "dur":47549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675120866525085, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866525110, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1675120866525188, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866525201, "dur":6770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1675120866531972, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675120866531994, "dur":89130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866475333, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866475333, "dur":2091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866477425, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675120866477441, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866477446, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675120866477688, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866477696, "dur":24782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675120866502479, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866502502, "dur":25625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528128, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528138, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level4.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528149, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level4.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528405, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528423, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528425, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528666, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528674, "dur":213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528891, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866528899, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level2" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529022, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529028, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529029, "dur":223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level1.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529256, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529264, "dur":236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529506, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529516, "dur":237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529757, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675120866529770, "dur":427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1675120866530208, "dur":90917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675120866475361, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675120866475361, "dur":2092, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675120866477453, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675120866477466, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675120866477473, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675120866477725, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675120866477730, "dur":52342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675120866530073, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675120866530088, "dur":91052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866475463, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866475463, "dur":1644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477110, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477159, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477171, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477203, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477210, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477233, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477238, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477257, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477264, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477285, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477293, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477300, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477314, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477323, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477330, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477339, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477349, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477357, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477364, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477372, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477377, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477384, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477389, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477398, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477406, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477414, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477419, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477636, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866477647, "dur":40480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866518128, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866518153, "dur":24823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866542984, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675120866543028, "dur":59395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675120866602430, "dur":18713, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866475385, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866475385, "dur":1721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477110, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477194, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477209, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477256, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477270, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game.exe" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477284, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477294, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477315, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477326, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477341, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477359, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477372, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477381, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477396, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477407, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477418, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477426, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477438, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477447, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477458, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477467, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477478, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477489, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477499, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477511, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477521, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477533, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477629, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866477640, "dur":52512, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675120866530153, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675120866530164, "dur":90971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866475410, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866475410, "dur":2070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866477480, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866477671, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866477680, "dur":33997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511678, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511709, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511729, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511738, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511769, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511783, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511789, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511794, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511800, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511804, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511809, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511813, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511818, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511823, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511827, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511831, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511836, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511839, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511845, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511850, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511855, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511859, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511864, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511868, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511873, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511877, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511882, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511886, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511890, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511895, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511900, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511904, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511908, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511912, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511917, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511921, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511926, "dur":5, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511931, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511936, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511939, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511944, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511948, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511952, "dur":4, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511956, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511960, "dur":3, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866511963, "dur":90389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles G:/Unity_projects/gamejam_proj/Cube game_Data/Cube game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675120866602353, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675120866602372, "dur":18755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675120866622745, "dur":805, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675120866639937, "dur": 224, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675120866639854, "dur": 320, "ph": "X", "name": "Write chrome-trace events", "args": {} },
