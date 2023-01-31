@@ -21,7 +21,7 @@ public class CharacterControll : MonoBehaviour
     private void Start()
     {
         _completedLvls = PlayerPrefs.GetInt("CompletedLvls", 0);
-        //PlayerPrefs.SetInt("CompletedLvls", 0); //если что обнулить пройденные лвл
+        // PlayerPrefs.SetInt("CompletedLvls", 0); //если что обнулить пройденные лвл
         _rb = GetComponent<Rigidbody>();
 
         if (_completedLvls == 1) //if lvl 1 completed
@@ -34,25 +34,26 @@ public class CharacterControll : MonoBehaviour
         }
         else if (_completedLvls == 3) //if ...
         {
-            
+
         }
         else if (_completedLvls == 4)
         {
-            
+
         }
         else if (_completedLvls == 5) //esli lvl5 budet kak finalniy
         {
-            
+
         }
     }
 
 
     private void Update()
     {
+        Debug.Log(_rb.velocity);
         if (_completedLvls > 0)
         {
             Jump();
-        }   
+        }
 
         x = Input.GetAxisRaw("Horizontal");
         z = Input.GetAxisRaw("Vertical");
@@ -63,9 +64,9 @@ public class CharacterControll : MonoBehaviour
         if (_completedLvls > 0)
         {
             GroundCheck();
-        }  
-        
-        
+        }
+
+
         Vector3 move = new Vector3(x * _speed, _rb.velocity.y, z * _speed);
 
         _rb.velocity = move;

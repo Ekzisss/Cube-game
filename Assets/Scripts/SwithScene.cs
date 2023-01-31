@@ -5,12 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SwithScene : MonoBehaviour
 {
-    public Scene scene;
-    [SerializeField] private Object _sceneToLoad;
+    public int sceneNumber = 0;
 
     private void OnTriggerEnter()
     {
-        // SceneManager.LoadScene(scene.buildIndex);
-        SceneManager.LoadScene(_sceneToLoad.name);
+        SceneManager.LoadScene(sceneNumber);
     }
 }

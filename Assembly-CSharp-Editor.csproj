@@ -742,6 +742,9 @@
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
         <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
         <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
@@ -763,11 +766,11 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
@@ -804,9 +807,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>D:\MyGames\Cube game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

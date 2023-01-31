@@ -12,10 +12,11 @@ Material:
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _EMISSION
+  - _ISINNERALPHABLENDORCOLOR_ON
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -104,7 +105,7 @@ Material:
     - _ShoreTex:
         m_Texture: {fileID: 2800000, guid: 5fbcffe9c2077f04186883cb39275fcc, type: 3}
         m_Scale: {x: 0, y: 0}
-        m_Offset: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecialWavesTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -175,7 +176,7 @@ Material:
     - _WaveScale: 0.046289656
     - _WaveSpeed: 1
     - _ZWrite: 1
-    - _isInnerAlphaBlendOrColor: 0
+    - _isInnerAlphaBlendOrColor: 1
     m_Colors:
     - WaveSpeed: {r: 1.086165, g: 4.440575, b: 12.105146, a: -3.0206447}
     - _AnimationDirection: {r: 0, g: 0, b: 0, a: 0}
@@ -202,7 +203,7 @@ Material:
     - _GSpeed: {r: -3, g: 2, b: 1, a: 3}
     - _GSteepness: {r: 7, g: 2, b: 6, a: 2}
     - _HorizonColor: {r: 0.052907113, g: 0.24486735, b: 0.2835821, a: 1}
-    - _InvFadeParemeter: {r: 0.67, g: 0.17, b: 27.39, a: 9.18}
+    - _InvFadeParemeter: {r: 0.67, g: 0.98, b: 27.39, a: 9.18}
     - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectionColor: {r: 0.5794164, g: 0.6849238, b: 0.76119405, a: 0.43137255}
     - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
